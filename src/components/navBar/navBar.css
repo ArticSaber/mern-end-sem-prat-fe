@@ -1,0 +1,80 @@
+/* .container {
+  width: 100%; 
+ height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  color: #242424;
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.nav-menu {
+  width: 100%;
+  padding: 2px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f1f1f1;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  border-radius: 3rem;
+  box-shadow: 1px solid #242424;
+} */
+
+/* navBar.css */
+
+.container {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  border-radius: 3rem;
+  box-shadow: 1px solid #242424;
+  border-top: 1px solid #000000;
+}
+
+.nav-menu a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.test {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
